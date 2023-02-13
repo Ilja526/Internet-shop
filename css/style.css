@@ -1,0 +1,23 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: auto;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: #90989f;
+}
+.stuff{
+    flex: 0 0 auto;
+}
+.title:after {
+    content: "";
+    flex: 1 1 auto;
+    display: block;
+    margin-left: 10px;
+    border-top: 1px solid black;
+    position: relative;
+    top: 50%;
+}
