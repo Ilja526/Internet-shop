@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Ware</title>
-  <link rel="stylesheet" href="../css/bootstrap.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
   <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="../css/img/dators.jpg" data-holder-rendered="true">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/dators.jpg" data-holder-rendered="true">
             <div class="card-body">
               <p class="card-text">Portatīvais dators Asus X515FA-BQ196W 15.6 FHD i3-10110U 8GB 512SSD RU W11S Gray</p>
               <p class="card-text">529.99 €</p>
@@ -79,7 +79,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/planšets.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/planšets.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
             <div class="card-body">
               <p class="card-text">Planšetdators Samsung Galaxy Tab A8 10.5" 32GB SM-X200 Dark Gray (SM-X200NZAAEUE)</p>
               <p class="card-text">219.99 €</p>
@@ -132,7 +132,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/kresels.jpg" style="height: 225px; width: 300px; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/kresels.jpg" style="height: 225px; width: 300px; display: block;">
             <div class="card-body">
               <p class="card-text">Mēbeles Canyon Gaming Chair Corax, Black/ Orange CND-SGCH5</p>
               <p class="card-text">229.99 €</p>
@@ -181,7 +181,7 @@
 
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/telefons.jpg" data-holder-rendered="true" style="height: 225px; width: 300px; display: block; ">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/telefons.jpg" data-holder-rendered="true" style="height: 225px; width: 300px; display: block; ">
             <div class="card-body">
               <p class="card-text">Mobilais telefons Samsung A336B Galaxy A33 5G 128GB Awesome Black</p>
               <p class="card-text">329.00 €</p>
@@ -235,7 +235,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/klaviatura.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/klaviatura.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
             <div class="card-body">
               <p class="card-text">Klaviatūra Dark Project One KD87A Red Switch (RU)</p>
               <p class="card-text">54.99 €</p>
@@ -285,7 +285,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/ledusskapis.jpg" data-holder-rendered="true" style="height: 225px; width:100px; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/ledusskapis.jpg" data-holder-rendered="true" style="height: 225px; width:100px; display: block;">
             <div class="card-body">
               <p class="card-text">Ledusskapis Beko CSA240K30SN</p>
               <p class="card-text">303.76 €</p>
@@ -334,7 +334,7 @@
 
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/plits.jpg" data-holder-rendered="true" style="height: 225px; width: 150px; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/plits.jpg" data-holder-rendered="true" style="height: 225px; width: 150px; display: block;">
             <div class="card-body">
               <p class="card-text">Plīts Beko FSE52320DXD</p>
               <p class="card-text">273.52 €</p>
@@ -382,7 +382,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/skalruni.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/skalruni.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
             <div class="card-body">
               <p class="card-text">Datora skaļruņi Logitech Z623 2.1</p>
               <p class="card-text">173.00 €</p>
@@ -440,7 +440,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../css/img/datorspele.jpg" data-holder-rendered="true" style="height: 225px; width: 100px; display: block;">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../example-app/public/css/img/datorspele.jpg" data-holder-rendered="true" style="height: 225px; width: 100px; display: block;">
             <div class="card-body">
               <p class="card-text">Datorpele Trust 24618 GXT 105X Izza Black</p>
               <p class="card-text">13.99 €</p>
