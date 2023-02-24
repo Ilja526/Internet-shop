@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>LatvijaGrozs.lv</title>
-    <link rel="stylesheet" href="../public/css/bootstrap.css">
-    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../public/js/jquery-slim.min.js"><\/script>')</script>
-    <script defer src="../public/js/bootstrap.min.js"></script>
-    <script defer src="../public/js/popper.min.js"></script>
-    <script defer src="../public/js/holder.min.js"></script>
+    <script defer src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script defer src="{{ asset('js/popper.min.js') }}"></script>
+    <script defer src="{{ asset('js/popper.min.js') }}"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8588635311388465" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,7 +25,7 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 text-secondary">Galvena</a></li>
                 <li><a href="#" class="nav-link px-2 text-white">Grozs</a></li>
-                <li><a href="../resources/views/ware.blade.php" class="nav-link px-2 text-white">Preces</a></li>
+                <li><a href="{{ url('ware') }}" class="nav-link px-2 text-white">Preces</a></li>
                 <li><a href="#" class="nav-link px-2 text-white">Pasūtiet</a></li>
                 <li><a href="#" class="nav-link px-2 text-white">Par mums</a></li>
             </ul>
@@ -92,19 +92,19 @@
                 <img class="rounded-circle" src="{{ asset('img/dators.jpg') }}" alt="Generic placeholder image" width="140" height="140">
                 <h2>Portatīvais dators Asus</h2>
                 <p>Asus X515FA-EJ181W laptopa operatīvā atmiņa ir vienāda ar 8 GB. Šāds apjoms ir ideāli piemērots, ja Jūsu dators ir neaizvietojams palīgs darbā, kuru Jūs lietojat maksimāli, noslogojot paralēli ar vairākiem jaudīgiem uzdevumiem, apstrādājat uz tā fotoattēlus un video, turklāt Jums patīk spēlēt spēles.</p>
-                <p><a class="btn btn-secondary" href="ware.blade.php" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="{{ url('ware') }}" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="{{ asset('img/plits.jpg') }}" alt="Generic placeholder image" width="140" height="140">
                 <h2>Plīts Beko FSE52320DXD</h2>
                 <p>Ja Jūs esat klasiskā stila cienītājs, turklāt Jūsu mājoklim ir gāzes pieslēgums, Jums noteikti patiks Beko FSE52320DXD gāzes plīts! Šī plīts virsma ir ērta un vienkārša lietošanā un arī kopšanā, kā arī tā ir tiešām ekonomiska.</p>
-                <p><a class="btn btn-secondary" href="ware.blade.php" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="{{ url('ware') }}" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="{{ asset('img/datorspele.jpg') }}" alt="Generic placeholder image" width="140" height="140">
                 <h2>Datorpele Trust 24618 GXT 105X </h2>
                 <p></p>
-                <p><a class="btn btn-secondary" href="../resources/views/ware.blade.php" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="{{ url('ware') }}" role="button">View details &raquo;</a></p>
             </div>
         </div>
         <hr class="featurette-divider">
