@@ -22,4 +22,7 @@ Route::get('/ware', function () {
     return view('ware');
 });
 
+Route::get('/buy', function () {
+    return view('buy');
+});
 

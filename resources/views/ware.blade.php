@@ -32,7 +32,7 @@
               <p class="card-text">529.99 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -85,7 +85,7 @@
               <p class="card-text">219.99 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt2-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -138,7 +138,7 @@
               <p class="card-text">229.99 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt3-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -187,7 +187,7 @@
               <p class="card-text">329.00 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt4-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -241,7 +241,7 @@
               <p class="card-text">54.99 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt5-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt5-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -291,7 +291,7 @@
               <p class="card-text">303.76 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt6-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt6-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -340,7 +340,7 @@
               <p class="card-text">273.52 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt7-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt7-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -388,7 +388,7 @@
               <p class="card-text">173.00 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt8-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt8-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -446,7 +446,7 @@
               <p class="card-text">13.99 €</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button>
+                    <a href="{{ url('buy') }}"><button type="button" class="btn btn-sm btn-outline-secondary">Nopirkt</button></a>
                   <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#nopirkt9-modal">Tehniskie Raksturojumi</button>
                   <div class="modal fade" id="nopirkt9-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
