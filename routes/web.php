@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,18 +13,16 @@
 |
 */
 
-
-use Illuminate\Support\Facades\Route;
-
 Route::get('/', function () {
     return view('home');
 });
-
 Route::get('/ware', function () {
     return view('ware');
 });
-
 Route::get('/buy', function () {
     return view('buy');
+});
+Route::get('/grozs', function () {
+    return view('grozs');
 });
 
