@@ -33,52 +33,8 @@
                 <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
             </form>
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2" data-toggle="modal" data-target="#singin">Sing in</button>
-
-                <div class="modal fade" id="singin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle1">Sing in</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">X</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <input type="text" name="name" id="name1" class="form-control" placeholder="Name"><br>
-                                <input type="text" name="password" id="password1" class="form-control" placeholder="Password"><br>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Sing In</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signup-modal">Sign up</button>
-                <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle2">Sing up</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">X</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"><br>
-                                <input type="text" name="lastName" id="lastName" class="form-control" placeholder="LastName"><br>
-                                <input type="text" name="email" id="email" class="form-control" placeholder="Email"><br>
-                                <input type="text" name="password" id="password" class="form-control" placeholder="Password"><br>
-                                <input type="text" name="people_number" id="Cilvēku skaits" class="form-control" placeholder="Password confirmation"><br>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Sing Up</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <a href="{{ route('login') }}"><button type="button" class="btn btn-outline-light me-2" data-toggle="modal" data-target="#singin">Sing in</button></a>
+                <a href="{{ route('register') }}"><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signup-modal">Sign up</button></a>
             </div>
         </div>
     </div>
@@ -163,30 +119,7 @@
                         <li>Email support</li>
                         <li>Help center access</li>
                     </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#signup-modal">Sign up for free</button>
-                    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Sing up</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">X</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"><br>
-                                    <input type="text" name="lastName" id="lastName" class="form-control" placeholder="LastName"><br>
-                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email"><br>
-                                    <input type="text" name="password" id="password" class="form-control" placeholder="Password"><br>
-                                    <input type="text" name="people_number" id="Cilvēku skaits" class="form-control" placeholder="Password confirmation"><br>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Sing Up</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="{{ route('login') }}"><button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#signup-modal">Sign up for free</button></a>
                 </div>
             </div>
             <div class="card mb-4 box-shadow">
