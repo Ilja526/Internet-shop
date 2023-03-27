@@ -29,7 +29,7 @@
                             <li><a href="{{ url('/') }}" class="nav-link px-2 text-secondary">Galvena</a></li>
                             <li><a href="{{ url('grozs') }}" class="nav-link px-2 text-white">Grozs</a></li>
                             <li><a href="{{ url('ware') }}" class="nav-link px-2 text-white">Preces</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">Pasūtiet</a></li>
+                            <li><a href="{{ url('admin') }}" class="nav-link px-2 text-white">admin</a></li>
                             <li><a href="#" class="nav-link px-2 text-white">Par mums</a></li>
                         </ul>
                         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
