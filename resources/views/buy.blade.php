@@ -30,14 +30,14 @@
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="firstName">First name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="" value="" required="">
                         <div class="invalid-feedback">
                             Valid first name is required.
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="lastName">Last name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="" value="" required="">
                         <div class="invalid-feedback">
                             Valid last name is required.
                         </div>
@@ -50,7 +50,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text">@</span>
                         </div>
-                        <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required="">
                         <div class="invalid-feedback" style="width: 100%;">
                             Your username is required.
                         </div>
@@ -59,15 +59,21 @@
 
                 <div class="mb-3">
                     <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
                     <div class="invalid-feedback">
                         Please enter a valid email address for shipping updates.
                     </div>
                 </div>
-
+                <div class="mb-3">
+                    <label for="address">Nosaukums produkts</label>
+                    <input type="text" class="form-control" id="address" name="name_products" placeholder="name products" required="">
+                    <div class="invalid-feedback">
+                        Please enter your Name products.
+                    </div>
+                </div>
                 <div class="mb-3">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" required="">
                     <div class="invalid-feedback">
                         Please enter your shipping address.
                     </div>
@@ -90,7 +96,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="cc-name">Name on card</label>
-                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                        <input type="text" class="form-control" id="cc-name" name="cc-name" placeholder="" required="">
                         <small class="text-muted">Full name as displayed on card</small>
                         <div class="invalid-feedback">
                             Name on card is required
@@ -98,13 +104,13 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="cc-number">Credit card number</label>
-                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                        <input type="text" class="form-control" id="cc-number" name="cc-number" placeholder="" required="">
                         <div class="invalid-feedback">
                             Credit card number is required
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit" name="continue">Continue to checkout</button>
             </form>
         </div>
     </div>
