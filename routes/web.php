@@ -21,6 +21,8 @@ Route::get('/ware', function () {
 Route::get('/buy', function () {
     return view('buy');
 });
+Route::post('/products', [\App\Http\Controllers\ContactsControllers::class, 'submit']);
+
 Route::get('/grozs', function () {
     return view('grozs');
 });

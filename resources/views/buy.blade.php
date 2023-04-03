@@ -26,10 +26,11 @@
     <div class="row">
         <div class="col-md-8 order-md-1">
             <h4 class="mb-3">Billing address</h4>
-            <form class="needs-validation" novalidate="">
+            <form class="needs-validation" novalidate="" method="POST" action="{{ url('products') }}">
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="firstName">First name</label>
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="text" class="form-control" id="firstName" name="firstName" placeholder="" value="" required="">
                         <div class="invalid-feedback">
                             Valid first name is required.
@@ -96,7 +97,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="cc-name">Name on card</label>
-                        <input type="text" class="form-control" id="cc-name" name="cc-name" placeholder="" required="">
+                        <input type="text" class="form-control" id="cc-name" name="cc_name" placeholder="" required="">
                         <small class="text-muted">Full name as displayed on card</small>
                         <div class="invalid-feedback">
                             Name on card is required
@@ -104,7 +105,7 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="cc-number">Credit card number</label>
-                        <input type="text" class="form-control" id="cc-number" name="cc-number" placeholder="" required="">
+                        <input type="text" class="form-control" id="cc-number" name="cc_number" placeholder="" required="">
                         <div class="invalid-feedback">
                             Credit card number is required
                         </div>
