@@ -9,8 +9,6 @@ use Illuminate\Http\Request;
 class ContactsControllers extends Controller
 {
     public function submit(Request $req){
-
-
         $contact=new Contact();
         $contact->firstName=$req->input('firstName');
         $contact->lastName=$req->input('lastName');

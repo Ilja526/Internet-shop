@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>Latvijas Grozs</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
@@ -170,7 +170,7 @@
                                     <li>Priority email support</li>
                                     <li>Help center access</li>
                                 </ul>
-                                <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                                <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#signup-modal">Get started</button>
                             </div>
                         </div>
                         <div class="card mb-4 box-shadow">
@@ -185,7 +185,7 @@
                                     <li>Phone and email support</li>
                                     <li>Help center access</li>
                                 </ul>
-                                <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                                <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-toggle="modal" data-target="#signup-modal">Contact us</button>
                             </div>
                         </div>
                     </div>
