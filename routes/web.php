@@ -23,6 +23,11 @@ Route::get('/buy', function () {
 });
 Route::post('/products', [\App\Http\Controllers\ContactsControllers::class, 'submit']);
 
+Route::get('/unique', function () {
+    return view('unique');
+});
+Route::post('/unique', [\App\Http\Controllers\UniqueControllers::class, 'unique']);
+
 Route::get('/grozs', function () {
     return view('grozs');
 });
