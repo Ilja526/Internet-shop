@@ -27,7 +27,6 @@
                         </a>
                         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                             <li><a href="{{ url('/') }}" class="nav-link px-2 text-secondary">Galvena</a></li>
-                            <li><a href="{{ url('grozs') }}" class="nav-link px-2 text-white">Grozs</a></li>
                             <li><a href="{{ url('ware') }}" class="nav-link px-2 text-white">Preces</a></li>
                             <li><a href="{{ url('admin') }}" class="nav-link px-2 text-white">Admin</a></li>
                             <li><a href="#" class="nav-link px-2 text-white">Par mums</a></li>
