@@ -32,7 +32,9 @@ Route::get('/grozs', function () {
     return view('grozs');
 });
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard', ['output' => 'Hello', 'data' => []]);
 })->middleware(['auth'])->name('dashboard');
+
+Route::get("search",[\App\Http\Controllers\SearchController::class,'search']);
 
 require __DIR__.'/auth.php';

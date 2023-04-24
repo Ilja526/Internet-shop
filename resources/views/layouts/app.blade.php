@@ -31,7 +31,7 @@
                             <li><a href="{{ url('admin') }}" class="nav-link px-2 text-white">Admin</a></li>
                             <li><a href="#" class="nav-link px-2 text-white">Par mums</a></li>
                         </ul>
-                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="{{ url('search') }}" method="GET">
                             <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
                         </form>
 
@@ -81,7 +81,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <img class="rounded-circle" src="{{ asset('img/dators.jpg') }}" alt="Generic placeholder image" width="140" height="140">
-                            <h2>Portatīvais dators Asus</h2>
+                            <h2>Portativais dators Asus</h2>
                             <p>Asus X515FA-EJ181W laptopa operatīvā atmiņa ir vienāda ar 8 GB. Šāds apjoms ir ideāli piemērots, ja Jūsu dators ir neaizvietojams palīgs darbā, kuru Jūs lietojat maksimāli, noslogojot paralēli ar vairākiem jaudīgiem uzdevumiem, apstrādājat uz tā fotoattēlus un video, turklāt Jums patīk spēlēt spēles.</p>
                             <p><a class="btn btn-secondary" href="{{ url('ware') }}" role="button">View details &raquo;</a></p>
                         </div>
@@ -114,7 +114,7 @@
 
                     <div class="row featurette">
                         <div class="col-md-7 order-md-2">
-                            <h2 class="featurette-heading">Klaviatūra Dark Project One</h2>
+                            <h2 class="featurette-heading">Ledusskapis</h2>
                             <p class="lead">Ledusskapis Beko CSA240K30SN - neaizstājama ierīce mājā mazai ģimenei vai vienam cilvēkam. Ar to jūs varat ilgu laiku veidot svaigāko un garšīgāko augļu un garšaugu krājumus un tādējādi izglābties no nevajadzīgas pārtikas iepirkšanās. Ledusskapim Beko CSA240K30SN ir ietilpīga un kompakta saldētava, kas atrodas tā apakšējā pusē, kurā ir tik ērti uzglabāt saldētus dārzeņus, ogas un citus sagataves.</p>
                         </div>
                         <div class="col-md-5 order-md-1">
