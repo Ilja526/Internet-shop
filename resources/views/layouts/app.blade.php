@@ -14,7 +14,9 @@
         <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <script src="{{ asset('js/app.js') }}" defer></script>
-    </head>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
@@ -29,10 +31,29 @@
                             <li><a href="{{ url('/') }}" class="nav-link px-2 text-secondary">Galvena</a></li>
                             <li><a href="{{ url('ware') }}" class="nav-link px-2 text-white">Preces</a></li>
                             <li><a href="{{ url('admin') }}" class="nav-link px-2 text-white">Admin</a></li>
-                            <li><a href="#" class="nav-link px-2 text-white">Par mums</a></li>
+                            <li><button type="button" class="nav-link px-2 text-white" data-toggle="modal" data-target="#exampleModal">Par mums</button></li>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Latvijas Grozs</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </ul>
-                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="{{ url('search') }}" method="GET">
-                            <input type="search" class="form-control form-control-dark" name="search" placeholder="Search..." aria-label="Search">
+                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" id="search-form" action="{{ url('search') }}" method="GET">
+                            <input type="search" id="search-value" class="form-control form-control-dark" name="search" placeholder="Search..." aria-label="Search">
                         </form>
 
                         <div class="hidden sm:flex sm:items-center sm:ml-6">
@@ -100,7 +121,7 @@
                     </div>
                     <hr class="featurette-divider">
 
-                    <div class="row featurette">
+                    <div class="row featurette" id="Planšetdators">
                         <div class="col-md-7">
                             <h2 class="featurette-heading">Planšetdators Samsung Galaxy</h2>
                             <p class="lead">Samsung Galaxy Tab A8 planšete ar 10,5" ekrānu un 1920 x 1200 izšķirtspēju ir lieliski piemērots, lai to lietotu kā mājas datoru darbam vai atpūtai, ja pie tā pieslēdz klaviatūru un peli. Turklāt, Samsung Galaxy Tab A8 planšetdators garantē krāsainu un detalizētu attēlu lieliskā kvalitātē, kas tiek panākts ar maigo grafiku, košām krāsām un skaidrību.</p>
@@ -112,7 +133,7 @@
 
                     <hr class="featurette-divider">
 
-                    <div class="row featurette">
+                    <div class="row featurette" id="Ledusskapis">
                         <div class="col-md-7 order-md-2">
                             <h2 class="featurette-heading">Ledusskapis</h2>
                             <p class="lead">Ledusskapis Beko CSA240K30SN - neaizstājama ierīce mājā mazai ģimenei vai vienam cilvēkam. Ar to jūs varat ilgu laiku veidot svaigāko un garšīgāko augļu un garšaugu krājumus un tādējādi izglābties no nevajadzīgas pārtikas iepirkšanās. Ledusskapim Beko CSA240K30SN ir ietilpīga un kompakta saldētava, kas atrodas tā apakšējā pusē, kurā ir tik ērti uzglabāt saldētus dārzeņus, ogas un citus sagataves.</p>
@@ -191,5 +212,20 @@
                 </div>
             </main>
         </div>
+    <script>
+        document.querySelector('#search-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            let value = document.querySelector('#search-value').value.trim();
+
+            if (value ==='') {
+                alert('Fill the form.');
+            } else {
+                let urlParts = location.href.split('#');
+                let finalUrl = urlParts[0] + '#' + value;
+                location.assign(finalUrl);
+            }
+        });
+    </script>
     </body>
 </html>
