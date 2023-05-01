@@ -43,7 +43,8 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            Laipni lūgti mūsu tiešsaistes veikalā!
+                                            Šeit jūs varat atrast produktu, kas atbilst jūsu gaumei.
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-lg btn-block btn-outline-primary" data-dismiss="modal">Close</button>
@@ -145,7 +146,7 @@
 
                     <hr class="featurette-divider">
 
-                    <div class="row featurette">
+                    <div class="row featurette" id="Mobilais">
                         <div class="col-md-7">
                             <h2 class="featurette-heading">Mobilais telefons Samsung A336B Galaxy A33 5G</h2>
                             <p class="lead">Divas SIM kartes Ar Samsung A325F Galaxy A32 varat izmantot divus tālruņa numurus vienlaikus, jo tam ir divi SIM karšu sloti. Sadaliet kontaktpersonas 2 grupās vai vienkārši atbrīvojieties no nepieciešamības nēsāt līdzi divus mobilos tālruņus.</p>
