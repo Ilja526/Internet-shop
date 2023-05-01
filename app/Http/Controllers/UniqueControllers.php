@@ -18,5 +18,7 @@ class UniqueControllers extends Controller
 
         $contact_unique->save();
 
+        echo '<h1>Jūs esat veiksmīgi aktivizējis savu unikālo piedāvājumu</h1>';
+
     }
 }

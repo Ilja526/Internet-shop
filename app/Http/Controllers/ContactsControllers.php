@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 
-use App\Models\Contact;
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class ContactsControllers extends Controller
 {
     public function submit(Request $req){
-        $contact=new Contact();
+        $contact=new Post();
         $contact->firstName=$req->input('firstName');
         $contact->lastName=$req->input('lastName');
         $contact->username=$req->input('username');
@@ -20,6 +20,9 @@ class ContactsControllers extends Controller
         $contact->cc_number=$req->input('cc_number');
 
         $contact->save();
+
+        echo '<h1>Jūs esat veiksmīgi pabeidzis pirkumu</h1>';
+
     }
 
 }
